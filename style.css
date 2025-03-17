@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: #eae8e6;
+    color: #5d643e;
+    font-family: "cabin", sans-serif;
+    font-weight: 300;
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+h1 {
+  font-family: "Cabin", sans-serif;
+  font-size: 3em;
+  color: #5d643e;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#display {
+  font-size: 2em;
+  background-color: #5d643e;
+  margin-bottom: 10px;
+  color: #eae8e6;
+  padding: 0.5rem;
+  display: inline-block;
+  border-radius: 5px;
+}
+.buttons button {
+  margin: 5px;
+  font-size: 1em;
+  padding: 1rem; 
+  background-color: #d4dab6; 
+  border-radius: 5px;
+  border-color: #eae8e6;
+}
+#timesList {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#totalTime {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.part-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.part-text {
+  margin-right: 10px;
+}
+.delete-btn {
+  cursor: pointer;
+  border: none;
+  font-size: 0.9em;
+  padding: 4px 8px;
+  background-color: #f44336; /* cor de exemplo: vermelho */
+  color: #fff;
+  border-radius: 4px;
+}
+.delete-btn:hover {
+  opacity: 0.8;
+}
+
